@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin:4px;
+}
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+    border:20px;
+  
+}
+
+.user-table th, .user-table td {
+    padding: 8px;
+    text-align: left;
+    border: 2px solid #FF69B4; 
+   
+}
+
+.user-table th {
+    background-color: #FF69B4;
+}
+
+.user-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.user-table input[type="text"],
+.user-table input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+
+   
+}
